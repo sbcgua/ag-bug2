@@ -6,6 +6,7 @@ interface zif_agbug2
   methods test
     importing
       iv_char type string
+      iv_num type i optional
     returning
       value(rv_str) type string.
 
